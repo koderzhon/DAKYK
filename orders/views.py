@@ -18,7 +18,6 @@ def order_create(request):
                                         quantity=item['quantity'])
 
             cart.clear()
-        
             order_created.delay(order.id)
             return render(request,
                           'orders/order/created.html',

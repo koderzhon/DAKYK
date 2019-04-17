@@ -41,6 +41,8 @@ a.button.light {
     text-align:right;
 }
 
+
+
 table {
     width:100%;
     border-spacing:0;
@@ -327,4 +329,7 @@ form div.field {
     background:#efefef;
     color:#666;
     border-radius:4px;
+}
+figure {
+  text-align: center;
 }

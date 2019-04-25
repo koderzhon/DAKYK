@@ -5,7 +5,9 @@
   <meta charset="utf-8" />
   <title>{% block title %}{% endblock %}</title>
   <link href="{% static "css/base.css" %}" rel="stylesheet">
+  <div class="hidden-xs oops-branding oops-area" data-link="http://samsungstore.kg/ru/" data-id="1634"></div>
 </head>
+
 <body>
   <div id="subheader"><a href="/" class="logo">
     <img  src="{% static "img/dakyk.png"  %}" width="150px" height="30px" align = "center" alt="1" ></a><div class="cart">
@@ -22,9 +24,11 @@
         {% endwith %}
     </div>
   </div>
+
   <div id="content">
     {% block content %}
     {% endblock %}
   </div>
+
 </body>
 </html>

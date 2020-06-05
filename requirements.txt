@@ -1,4 +1,4 @@
-django==2.0.5
+django==2.2.13
 pillow==5.1.0
 celery==4.1.0
 
